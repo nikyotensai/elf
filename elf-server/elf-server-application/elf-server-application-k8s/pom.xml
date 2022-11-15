@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>elf-server-application</artifactId>
+        <groupId>com.github.nikyotensai</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>elf-server-application-k8s</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-kubernetes-fabric8-autoconfig</artifactId>
+        </dependency>
+        <dependency>
+            <artifactId>elf-server-application-api</artifactId>
+            <groupId>com.github.nikyotensai</groupId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

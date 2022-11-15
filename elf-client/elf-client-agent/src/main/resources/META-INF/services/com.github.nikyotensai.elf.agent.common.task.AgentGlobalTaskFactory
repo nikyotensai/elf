@@ -1,0 +1,5 @@
+com.github.nikyotensai.elf.agent.task.monitor.MonitorReportTaskFactory
+com.github.nikyotensai.elf.agent.task.cpujstack.CpuJStackTaskFactory
+com.github.nikyotensai.elf.agent.task.agentInfo.AgentInfoPushTaskFactory
+com.github.nikyotensai.elf.agent.task.heapHisto.HeapHistoDumpTaskFactory
+com.github.nikyotensai.elf.agent.task.profiler.ProfilerFileCleanTaskFactory

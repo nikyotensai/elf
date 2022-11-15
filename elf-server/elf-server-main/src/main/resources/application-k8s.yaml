@@ -1,0 +1,11 @@
+elf:
+  application:
+    mode: k8s
+spring:
+  cloud:
+    kubernetes:
+      client:
+        masterUrl: ${masterUrl}
+        namespace: ${namespace}
+        oauthToken: ${oauthToken}
+        trustCerts: true
