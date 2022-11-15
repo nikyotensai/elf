@@ -1,0 +1,7 @@
+FROM openjdk:8-jdk
+
+RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+ADD target/elf-server.jar /elf-server.jar
+
+ENTRYPOINT ["java", "-Djava.awt.headless=true -Dfile.encoding=UTF-8", "-jar", "/elf-server.jar"]

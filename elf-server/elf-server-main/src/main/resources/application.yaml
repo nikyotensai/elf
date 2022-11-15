@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: elf-server
+server:
+  port: 9091
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+elf:
+  location:
+    jstack: jstack
+    jstat: jstat
+  server:
+    port4Ui: 9013
+    port4Agent: 9014
+    heartbeatSec: 30

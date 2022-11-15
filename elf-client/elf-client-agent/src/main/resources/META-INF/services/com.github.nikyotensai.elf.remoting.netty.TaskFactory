@@ -1,0 +1,13 @@
+com.github.nikyotensai.elf.commands.arthas.ArthasTaskFactory
+com.github.nikyotensai.elf.commands.JdkProcessCmdTaskFactory
+com.github.nikyotensai.elf.commands.host.HostTaskFactory
+com.github.nikyotensai.elf.commands.host.ThreadInfoTaskFactory
+com.github.nikyotensai.elf.commands.heapHisto.HeapHistoTaskFactory
+com.github.nikyotensai.elf.commands.monitor.QMonitorQueryTaskFactory
+com.github.nikyotensai.elf.commands.cpujstack.CpuTimeTaskFactory
+com.github.nikyotensai.elf.commands.cpujstack.ThreadInfoTaskFactory
+com.github.nikyotensai.elf.commands.cpujstack.ThreadNumTaskFactory
+com.github.nikyotensai.elf.commands.decompiler.DecompilerTaskFactory
+com.github.nikyotensai.elf.commands.profiler.ProfilerFileForProxyTaskFactory
+com.github.nikyotensai.elf.commands.download.DownloadFileListTaskFactory
+com.github.nikyotensai.elf.commands.download.DownloadFileTaskFactory

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>elf-project</artifactId>
+        <groupId>com.github.nikyotensai</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>elf-client</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>elf-client-common</module>
+        <module>elf-client-agent-common</module>
+        <module>elf-client-command</module>
+        <module>elf-client-decompiler-fernflower</module>
+        <module>elf-client-agent</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.nikyotensai</groupId>
+            <artifactId>elf-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

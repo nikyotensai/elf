@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>elf-attach</artifactId>
+        <groupId>com.github.nikyotensai</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>elf-attach-common</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.github.nikyotensai</groupId>
+            <artifactId>elf-client-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.taobao.middleware</groupId>
+            <artifactId>logger.core</artifactId>
+            <version>0.2.6</version>
+        </dependency>
+    </dependencies>
+
+</project>
